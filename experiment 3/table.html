@@ -4,43 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>College Timetable - CSE Department</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    table {
-      border-collapse: collapse;
-      margin: 20px auto;
-      width: 90%;
-    }
-    th, td {
-      border: 1px solid black;
-      padding: 10px;
-      text-align: center;
-    }
-    th {
-      background-color: #f0f0f0;
-    }
-    .lab-table {
-      border: 1px solid black;
-      margin-top: 10px;
-      width: 40%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .lab-table th {
-      background-color: #f0f0f0;
-    }
-  </style>
 </head>
 <body>
 
-  <h2>College Timetable - CSE Department</h2>
+  
 
-  <table>
+  <table border="1" cellpadding="10" cellspacing="2">
+    
     <tr>
-      <th>Day / Time</th>
+      <caption><strong>Timetable - CSE Department</strong></caption>
+      <th>Day /Time</th>
       <th>9:00 - 10:00</th>
       <th>10:00 - 11:00</th>
       <th>11:00 - 12:00</th>
@@ -52,8 +25,8 @@
     <tr>
       <td>Monday</td>
       <td>Mathematics</td>
+      <td rowspan="2"></td>
       <td>English</td>
-      <td></td>
       <td>Break</td>
       <td>Computer Lab</td>
       <td colspan="2">Sports</td>
@@ -73,7 +46,23 @@
       <td>English</td>
       <td></td>
       <td>Break</td>
-      <td colspan="3">Computer Networks</td>
+      <td colspan="2">Computer Networks</td>
+      <td>
+        <table border="1">
+          <caption >lab-timetable</caption>
+          <tr>
+            <th colspan="2">Lab Details</th>
+          </tr>
+          <tr>
+            <td>Batch A</td>
+            <td>DBMS Lab</td>
+          </tr>
+          <tr>
+            <td>Batch B</td>
+            <td>OS Lab</td>
+          </tr>
+        </table>
+      </td>
     </tr>
     <tr>
       <td>Thursday</td>
@@ -95,19 +84,7 @@
     </tr>
   </table>
 
-  <table class="lab-table">
-    <tr>
-      <th colspan="2">Lab Details</th>
-    </tr>
-    <tr>
-      <td>Batch A</td>
-      <td>DBMS Lab</td>
-    </tr>
-    <tr>
-      <td>Batch B</td>
-      <td>OS Lab</td>
-    </tr>
-  </table>
+  
 
 </body>
 </html>
