@@ -1,0 +1,14 @@
+h1{
+    color:darkorange;
+    font-size: 30px;
+    text-align:center ;
+
+}
+p{
+    color:blueviolet;
+    font-size: 18;
+}
+body{
+    background-color: blueviolet;
+    font-family: Arial,sans-serif;
+}
