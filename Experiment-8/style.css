@@ -1,0 +1,39 @@
+body {
+    font-family: 'georgia',serif;
+    margin: 20px;
+   
+}
+h1 {
+    text-align: center;
+}
+.container {
+    border: 20px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px;
+    margin: 20px;
+}
+.card {
+    background-color: plum;
+    width: 220px;
+    text-align:center ;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(40, 40, 130, 0.8);
+}
+.circle {
+    background-color:blue;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50%;
+    line-height: 70px;
+    margin: 0 auto 15px;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
