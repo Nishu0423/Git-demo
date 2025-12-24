@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="veiwport" content="width-device-width , initial-scale=1.0">
+        <title>Demo</title> 
+    
+    <style>
+        .wrapper{
+            display:grid;
+            grid-template-columns: 200px 200px 200px;
+        }
+        *{
+            box-sizing: border-box;
+
+        }
+        .wrapper{
+            border: 2px salmon;
+            border-radius: 5px;
+            background-color: aquamarine;
+        }
+        .wrapper> div{
+            border: 2px solid rebeccapurple;
+            border-radius: 5px;
+            background-color: rgb(225, 72, 21);
+            color: aqua;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div>one</div>
+            <div>two</div>
+            <div>three</div>
+            <div>four</div>
+            <div>five</div>
+        </div>
+    </body>
+</html>
