@@ -3,52 +3,36 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
-
-    <title>Experiment 4 - Hotel Room Booking Form</title>
-    
+    <title>Experiment 4 - Hotel Room Booking Form</title>    
 </head>
 <body>
-    <form action="#" method="post">
-
-    
+    <form action="#" method="post">    
             <h2 align="center">Hotel Room Booking Form</h2>
-
             <label for ="Name">Full Name:</label>
             <input type="text" id="name" name="Name" required >
             <br><br>
-
             <label for="email">Email:</label>
             <input type="email" id="email" name="email">
             <br><br>
-
             <label for="phone">Phone:</label>
             <input type="tel"id="phone" name="phone"><br><br>
-
             <label for="checkin">Check-in Date:</label>
             <input type="date"id="checkin" name="checkin"><br>
-
             <label for="checkout">Check-out Date:</label>
             <input type="date"id="checkout" name="checkout"><br>
-
             <label for="roomtype">Room Type:</label>
             <select name="roomtype">
                 <option>Single Room</option>
                 <option>Double Room</option>
                 <option>Suite</option>
             </select><br><br>
-
             <label for="guest">Number of Guests:</label>
-            <input type="number" id="guest" name="guests" min="1"><br><br>
-
-            <label>Special Requests:</label><br>
-            <textarea name="requests"></textarea><br>
-
+            <input type="number" id="guest" name="guest" min="1"><br><br>
+            <label for ="requests">Special Requests:</label><br>
+            <textarea id="requests" name="requests"></textarea><br>
             <!--buttons--->
             <button type="submit">Book now</button>
             <button type="reset">Reset Form</button>
-        </form>
-    
-
-    
+        </form>    
 </body>
 </html>
