@@ -5,8 +5,25 @@
     <title>Student sign-up form</title>
 </head>
 <body>
-    <h1 align:center> <b>Student Sign-Up Form</b></h1>
+    <h1 align="center"> <b>Student Sign-Up Form</b></h1>
     <form action="&" method="post">
-        <label>Full Name</label>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" placeholder="Enter your full name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter valid email address"><br>
+         <label for="age">Age:</label>
+        <input type="integer" id="age" placeholder="Enter your age"><br><br>
+        <label for="password">Create Password:</label>
+        <input type="password" id="password" placeholder="Atleast 6 characters"><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other<br>
+        <label>Interests(choose all that apply):</label>
+        <input type="radio" name="interest" value="coding"> male
+        <input type="radio" name="interest" value="Drawing"> Female
+        <input type="radio" name="interest" value="Sports"> Other<br>
+
+
     </form>
 </body>
