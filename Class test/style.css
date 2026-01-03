@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    text-align: center;
+    margin: 20px;
+}
+h1{
+    color: black;
+    margin-bottom: 30px;
+}
+product-box{
+    background-color: azure;
+    width: 300px;
+    margin:0 auto;
+    padding:15px;
+    border:12px red;
+    border-radius: 8px;
+
+}
+img{
+    width: 20%;
+    height: auto;
+    border:12px red;
+    border-radius: 5px;
+}
+button{
+    background-color: blue;
+}

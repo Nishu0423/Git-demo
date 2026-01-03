@@ -1,49 +1,28 @@
-*{
-    margin: 0;
+*{margin: 0;
     padding: 0%;
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.navbar{
-    display: flex;
+    box-sizing: border-box;}
+body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.navbar{display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
     color: aliceblue;
-    padding: 15px 20px;
-
-}
-.logo{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-.nav-links{
-    display: flex;
-    list-style: none;
-}
-.nav-links li{
-    margin:0 15px;
-}
-.nav-links a{
-    text-decoration: none;
+    padding: 15px 20px;}
+.logo{font-size: 1.5rem;
+    font-weight: bold;}
+.nav-links{display: flex;
+    list-style: none;}
+.nav-links li{margin:0 15px;}
+.nav-links a{text-decoration: none;
     color: antiquewhite;
-    font-size: 12px;
-}
-.actions a{
-    margin-left: 15px;
+    font-size: 12px;}
+.actions a{margin-left: 15px;
     color: blueviolet;
     text-decoration: none;
-    font-weight: bold;
-}
+    font-weight: bold;}
 @media(max-width:768px){
-    .nav-links{
-        display: none;
-    }
-    .actions {
-        font-size: 0.9rem;
-    }
+    .nav-links{display: none;}
+    .actions {font-size: 0.9rem;}
 }
 @media (min-width: 768px) and (max-width:1024px) {
     .nav-links a{
@@ -52,6 +31,5 @@ body{
 }
 @media (min-width: 1025px) {
     .nav-links a{
-        font-size: 1rem;
-    }
+        font-size: 1rem;}
 }

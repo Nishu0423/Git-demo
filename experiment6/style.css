@@ -14,7 +14,7 @@ h1{
 }
 .product-box{
     background-color:red;
-    width: 100px;
+    width: 59px;
     margin:0 auto;
     padding:15px;
     border:12px solid rgb(18, 16, 16);
@@ -23,7 +23,7 @@ h1{
 }
 .product-box img{
     width: 50%;
-    height: auto;
+    height: 50%;
     border:2px solid rgb(18, 16, 16);
     border-radius: 5px;
 }
